@@ -1,14 +1,19 @@
 nav {
     /* height: 50px; */
+    /* padding: 1em; */
+    font-family: 'Gotham';
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     padding: 1em;
+    height: 5em;
 }
 
 nav .logo {
-    background: yellow;
+    background: #F7CE3E;
     color: #000;
     display: inline-block;
     padding-top: 4px;
-    font-family: 'Gotham';
     font-size: 1.125em;
     font-weight: bold;
     text-decoration: none;
@@ -16,5 +21,38 @@ nav .logo {
     height: 50px;
     width: 60px;
     /* margin: 1em; */
-    vertical-align: middle;
+
+}
+
+nav .nav-items {
+    display: flex;
+    align-content: center;
+    width: 85%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .nav-item {
+    background: #1A2930;
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 0.25em 1.25em;
+    margin-right: 1em;
+}
+
+nav .nav-item:hover, nav .nav-item.active {
+    background: #F7CE3E;
+}
+
+nav .search {
+    height: 1.6875em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+nav .search img {
+    width: 20px;
+    /* margin-top: 10px; */
 }

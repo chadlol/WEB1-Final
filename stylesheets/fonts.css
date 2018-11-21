@@ -2,16 +2,19 @@
     font-family: 'Avenir Next';
     src: url('../assets/fonts/avenir-next-regular.woff');
     font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham';
     src: url('../assets/fonts/Gotham-Medium.woff');
     font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Gotham';
     src: url('../assets/fonts/Gotham-Bold.woff');
     font-weight: bold;
+    font-style: normal;
 }

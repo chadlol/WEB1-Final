@@ -5,17 +5,19 @@ header {
     background-size: cover;
     background-blend-mode: multiply;
     color: #FFF;
-    /* min-height: 50vh; */
     position: relative;
-    min-height: 65vh;
+    min-height: 50vh;
     display: grid;
     grid-template-rows: 50px 1fr;
 }
 
 header .header-copy {
     text-align: center;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 75%;
+    margin: 0 auto;
 }
 
 header h1 {
@@ -26,6 +28,5 @@ header p.sub-head {
     display: block;
     font-family: 'Avenir Next';
     font-size: 1.5em;
-    max-width: 85%;
-    margin: 0 auto;
+
 }
