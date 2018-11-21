@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1 {
+    font-family: 'Gotham';
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+p.sub-head {
+    display: block;
+    font-family: 'Avenir Next';
+    font-size: 1.5em;
+}

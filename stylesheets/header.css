@@ -1,0 +1,31 @@
+header {
+    background: url('../assets/images/15.png');
+    background-color: #888;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: #FFF;
+    /* min-height: 50vh; */
+    position: relative;
+
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+header .header-copy {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+header h1 {
+    padding-bottom: 0.5em;
+}
+
+header p.sub-head {
+    display: block;
+    font-family: 'Avenir Next';
+    font-size: 1.5em;
+    max-width: 85%;
+    margin: 0 auto;
+}
