@@ -1,0 +1,96 @@
+.tiles {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+    padding: 2em 2em 0 2em;
+    font-family: 'Gotham';
+    text-transform: uppercase;
+}
+
+.tiles.reverse {
+    grid-template-columns: 2fr 1fr;
+}
+
+.tiles + .tiles {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.tiles .tile-header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1A2930;
+    padding: 2em;
+    color: #C5C1C0;
+    margin-right: 1em;
+}
+
+.tiles.reverse .tile-header {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-right: 0;
+    margin-left: 1em;
+}
+
+.tiles section {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    grid-row-start: 1;
+}
+
+.tiles .tile {
+    position: relative;
+}
+
+.tiles .tile-name {
+    position: absolute;
+    background: #C5C1C0;
+    padding:  0.5em 1.5em;
+}
+
+.tiles .tile-name.right{
+    right: 0;
+}
+
+.tiles .bg-ylw { background: #F7CE3E; color: #000;}
+
+.tiles .bg-blu { background: #1A2930; color: #FFF;}
+
+.tiles .bg-blk { background: #000; color: #F7CE3E;}
+
+.tiles img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .tiles,
+    .tiles.reverse {
+        grid-template-rows: 1fr 4fr;
+        grid-template-columns: 1fr;
+    }
+    .tiles.reverse {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .tiles .tile-header,
+    .tiles.reverse .tile-header{
+        margin: 0 0 1em 0;
+        grid-column-start: 1;
+    }
+    .tiles section {
+        grid-row-start: 2;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+

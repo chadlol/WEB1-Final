@@ -4,15 +4,24 @@
     box-sizing: border-box;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Gotham';
     font-weight: normal;
     text-transform: uppercase;
     font-size: 3em;
 }
 
+h2 {
+    font-size: 2em;
+}
+
 p.sub-head {
     display: block;
     font-family: 'Avenir Next';
     font-size: 1.5em;
+}
+
+a {
+    font-family: 'Gotham';
+    text-decoration: none;
 }

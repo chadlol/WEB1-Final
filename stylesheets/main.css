@@ -1,4 +1,9 @@
+@import 'fonts.css';
 @import 'global.css';
 
 @import 'nav.css';
 @import 'header.css';
+
+/* Components */
+@import 'tiles.css';
+@import 'footer.css';

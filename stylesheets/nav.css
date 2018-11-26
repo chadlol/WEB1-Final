@@ -7,6 +7,10 @@ nav {
     width: 100%;
     padding: 1em;
     height: 5em;
+    transition: all 0.2s ease;
+    position: fixed;
+    z-index: 999;
+    /* background: rgba(0,0,0,.75); */
 }
 
 nav .logo {
@@ -20,7 +24,6 @@ nav .logo {
     text-align: center;
     height: 50px;
     width: 60px;
-    /* margin: 1em; */
 
 }
 
@@ -40,6 +43,7 @@ nav .nav-item {
     font-weight: normal;
     padding: 0.25em 1.25em;
     margin-right: 1em;
+    transition: all .2s ease;
 }
 
 nav .nav-item:hover, nav .nav-item.active {
@@ -55,4 +59,27 @@ nav .search {
 nav .search img {
     width: 20px;
     /* margin-top: 10px; */
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 0;
+        height: auto;
+        justify-content: flex-start;
+        position: fixed;
+    }
+
+    nav .nav-items {
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    nav .nav-item {
+        height: 1.75em;
+        text-align: center;
+        width: 100%;
+        padding: 0.25em 0.125em;
+        margin: 0;
+    }
 }
