@@ -7,8 +7,6 @@ header {
     color: #FFF;
     position: relative;
     min-height: 50vh;
-    display: grid;
-    grid-template-rows: 50px 1fr;
 }
 
 header .header-copy {
