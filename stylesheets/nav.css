@@ -1,6 +1,4 @@
 nav {
-    /* height: 50px; */
-    /* padding: 1em; */
     font-family: 'Gotham';
     display: flex;
     justify-content: space-between;
@@ -10,7 +8,6 @@ nav {
     transition: all 0.2s ease;
     position: fixed;
     z-index: 999;
-    /* background: rgba(0,0,0,.75); */
 }
 
 nav .logo {
