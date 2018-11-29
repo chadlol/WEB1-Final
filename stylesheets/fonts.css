@@ -18,3 +18,25 @@
     font-weight: bold;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../assets/fonts/museo-100.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../assets/fonts/museo-300-webfont.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../assets/fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
