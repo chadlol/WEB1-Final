@@ -26,10 +26,9 @@ nav .logo {
 
 nav .nav-items {
     display: flex;
-    align-content: center;
     width: 85%;
     justify-content: flex-end;
-    align-items: center;
+    height: 1.75em;
 }
 
 nav .nav-item {
